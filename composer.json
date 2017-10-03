@@ -1,0 +1,18 @@
+{
+    "name": "nattaponra/googleads-php",
+    "authors": [
+        {
+            "name": "Nattapon Rakthong",
+            "email": "nattapon@3dsinteractive.com"
+        }
+    ],
+    "require": {
+        "googleads/googleads-php-lib": "^30.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pam-google-ads\\":"src"
+        }
+
+    }
+}
